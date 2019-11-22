@@ -1,0 +1,151 @@
+ul.rig {
+	list-style: none;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	font-size: 1rem;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+	height: auto;
+}
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+ul.rig li p {
+	font-size: 2em;
+	line-height: 1.5em;
+	color: #39172f;
+}
+/* class for 2 columns */
+
+ul.rig.columns-0 li {
+	width: 75.6%; /* this value + 2.5 should = 50% */
+}
+
+ul.rig.columns-0 li img.logoAccueilParcours1{
+	min-width: 14%;
+	max-width: 14%;
+}
+
+ul.rig.columns-1 li {
+	width: 60.6%; /* this value + 2.5 should = 50% */
+}
+
+ul.rig.columns-1 li img.logoAccueilParcours1 {
+	min-width: 14%;
+	max-width: 60%;
+}
+
+ul.rig.columns-1 li img.LogoAccueilChateau{
+	min-width:14%;
+	max-width: 25%;
+}
+
+ul.rig.columns-2 li img.direction{
+	min-width: 50%;
+	max-width: 50%;
+}
+
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+
+ul.rig.columns-2 li img.logoAccueilParcours1 {
+	min-width: 14%;
+	max-width: 60%;
+}
+
+ul.rig.columns-2 li img.LogoAccueilChateau{
+	min-width:14%;
+	max-width: 25%;
+}
+
+ul.rig.columns-2 li img.direction{
+	min-width: 50%;
+	max-width: 50%;
+}
+
+ul.rig.columns-2 li p.fontTop{
+	margin-top:-2%;
+}
+
+ul.rig.columns-2 li .col-lg-6:nth-child(2){
+	margin-top:3%;
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+
+ul.rig.columns-3 li img.logoAccueilParcours1{
+	min-width:14%;
+	max-width: 80%;
+}
+
+ul.rig.columns-3 li .row #textSem .fontTop{
+	margin-top: -2%;
+}
+
+ul.rig.columns-3 li img.LogoAccueilChateau{
+	min-width:14%;
+	max-width: 50%;
+}
+
+ul.rig.columns-3 li img.direction{
+	min-width:50%;
+	max-width: 80%;
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+
+ul.rig.columns-4 li img.logoAccueilParcours1{
+	min-width:14%;
+	max-width: 130%;
+}
+
+ul.rig.columns-4 li img.LogoAccueilChateau{
+	min-width:14%;
+	max-width: 60%;
+}
+
+ul.rig.columns-4 li img.direction{
+	min-width:50%;
+	max-width: 100%;
+}
+
+ul.rig.columns-4 li p.fontTop{
+	margin-top:-5%;
+}
+
+ul.rig.columns-7 li {
+	width: 10%;
+	height: 150px;
+}
+
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
